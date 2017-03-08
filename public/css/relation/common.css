@@ -1,0 +1,105 @@
+@charset "utf-8";
+*{
+	-moz-box-sizing: border-box;  
+    -webkit-box-sizing: border-box; 
+    -o-box-sizing: border-box; 
+    -ms-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+/*签到攻略*/
+.qiandao_text{ padding:0.75em;}
+.qiandao_text .p1{ font-size:0.875em; line-height:2em;}
+.qiandao_text .p2{ font-size:0.75em; color:#666; line-height:2em;text-align:Justify;text-justify:inter-ideograph;}
+/*人脉圈*/
+.renmai_01{ width:100%; margin-top:0.75em; border-top:1px solid #e0e0e0; border-bottom:1px solid #e0e0e0; background:#fff;}
+.renmai_01 .renmai_l{ width:50%; float:left; text-align:center;}
+.renmai_01 .renmai_l span{ color:#999; padding-top:1.35em; font-size:0.875em;}
+.renmai_01 .renmai_l p{ font-size:1em; color: #666; padding:1.25em 0;}
+.renmai_01 .renmai_l b{ font-size:1.5em; color:#FF5217; font-weight:normal;}
+.renmai_01 .renmai_r{ width:50%; float:left;border-left:1px solid #e0e0e0; }
+.renmai_01 .renmai_r p{ padding:1em 0; margin:0 1em; border-bottom:1px solid #e0e0e0; font-size:0.875em; color: #999;}
+.renmai_01 .renmai_r p:last-child{ border-bottom:none;}
+.renmai_01 .renmai_r b{ font-weight:normal; font-size:1.5em; color:#000; padding-left:1em;}
+.renmai_02{ padding:0.75em; margin-top:0.75em; border-top:1px solid #e0e0e0; border-bottom:1px solid #e0e0e0; background:#fff;}
+.renmai_02 p{ font-size:0.875em; float:left;}
+.renmai_02 b{font-size:1.25em; color:#1583E6; font-weight:normal; padding-left:0.75em; }
+.renmai_02 a{ font-size:0.875em; float:right; padding-top:0.2em;}
+.renmai_03{ width:100%;margin-top:0.75em; border-top:1px solid #e0e0e0; border-bottom:1px solid #e0e0e0; background:#fff;}
+.renmai_03 li{ display:block; padding:0.75em 0;  width:33.33%; float:left; border-right:1px solid #e0e0e0; text-align:center;}
+.renmai_03 li:last-child{ border-right:none;}
+.renmai_03 li img{ display:block; width:3.5em; height:3.5em; margin:0 auto;}
+.renmai_03 li span{ display:block; text-align:center; padding-top:0.75em; font-size:0.875em;}
+.renmai_04{ width:100%;margin-top:0.75em; border-top:1px solid #e0e0e0; border-bottom:1px solid #e0e0e0; background:url(../images/ico_line.png) center center no-repeat #fff;}
+.renmai_04 .tubiao{ width:50%; float:left; text-align:center; padding:0.75em 0;}
+.renmai_04 .tubiao img{ width:1.25em; height:1.25em; vertical-align:middle;}
+.renmai_04 .tubiao span{ display:inline-block; vertical-align:middle; font-size:0.875em; padding-left:0.75em;}
+.renmai_04 .tubiao p{ padding-top:1.25em; font-size:0.875em; color:#999;}
+.renmai_04 .tubiao b{ font-weight:normal; font-size:1.5em; color:#000;}
+
+/*我的佣金*/
+.yongjin_box{ padding:0.75em; margin-top:0.75em; border-top:1px solid #e0e0e0; border-bottom:1px solid #e0e0e0; background:#fff;}
+.yongjin_box .tit{ padding-bottom:0.75em; border-bottom:1px solid #e0e0e0; font-size:0.875em;}
+.yongjin_box .tit span{ font-size:0.875em; color:#999; padding-top:0.5em;}
+.yongjin_box .xq{ padding:0.75em 0.25em 0 0.25em;}
+.yongjin_box .xq .l{ float:left; color:#1583E6; font-size:1.25em; }
+.yongjin_box .xq .r{ float:left; padding-left:0.75em;}
+.yongjin_box .xq .r p{ font-size:0.625em; padding-top:0.5em;}
+.yongjin_box .xq .r p span{ padding:0 0.35em;}
+.zhushi{ padding:1em 0 0 0.75em;}
+.zhushi span{ display:inline-block; font-size:0.625em; color:#999; width:3em; margin-right:0.5em; vertical-align:top;}
+.yongjin_box .tip{ width:100%; color:#ff3300; padding-top:1em; font-size:0.625em;}
+.yongjin_tit{ padding:0.85em; font-size:0.875em; color:#666;}
+.yongjin_list{ display:block;padding:0.75em 0 0.5em 0; border-top:1px solid #e0e0e0; border-bottom:1px solid #e0e0e0; background:#fff;}
+.yongjin_list dt{ width:100%; display:block;  padding-bottom:0.75em; margin-bottom:0.5em; border-bottom:1px solid #e0e0e0;}
+.yongjin_list dt p{ display:block; float:left; width:33.33%; font-size:0.75em; text-align:center;}
+.yongjin_list dd{width:100%; display:block; padding:0.5em 0;}
+.yongjin_list dd .list_01{ width:33.33%; float:left; text-align:center;}
+.yongjin_list dd .list_01 img{ width:1em; height:1em; margin:0 0.15em;}
+.yongjin_list dd .list_01 span{ font-size:0.75em;}
+.yj_btn{width:9em; margin:1.5em auto; height:2.5em; border-radius:0.25em; background:#fff;font-size:0.875em; display:block;text-align:center; border:1px solid #e0e0e0; outline:none; padding:0;}
+.yj_btn a{ display:block;line-height:2.5em; color:#333; }
+/*历史记录*/
+.jilu_btn{ padding:0.75em 0; width:100%;}
+.jilu_btn button{display:block; float:left; margin-left:4%;}
+.jilu_btn .btn_01{ width:14%; height:2.5em;border-radius:0.25em; background:#fff;font-size:0.75em;text-align:center; border:1px solid #e0e0e0; outline:none; padding:0;}
+.jilu_btn .btn_02{ width:20%; height:2.5em;border-radius:0.25em; background:#fff;font-size:0.75em;text-align:center; border:1px solid #e0e0e0; outline:none; padding:0;}
+.jilu_btn .btn_03{ width:23%; height:2.5em;border-radius:0.25em; background:#fff;font-size:0.75em;text-align:center; border:1px solid #e0e0e0; outline:none; padding:0;}
+.jilu_btn .btn_04{ width:23%; height:2.5em;border-radius:0.25em; background:#fff;font-size:0.75em;text-align:center; border:1px solid #e0e0e0; outline:none; padding:0;}
+.jilu_btn .on{border:1px solid #ff3300; color:#ff3300;}
+.jilu_list{ padding:0 0.75em; display:block;border-top:1px solid #e0e0e0; border-bottom:1px solid #e0e0e0; background:#fff; }
+.jilu_list dt{ display:block; padding:0.75em 0; border-bottom:1px solid #e0e0e0;}
+.jilu_list .p1{ width:40%; border-right:1px solid #e0e0e0; padding-left:2.25em; font-size:0.875em; float:left;}
+.jilu_list .p2{ width:30%; padding-right:2em; font-size:0.875em; text-align:right;float:left;}
+.jilu_list .p3{ width:30%; padding-right:2em; font-size:0.875em; text-align:right;float:left;}
+.jilu_list dd{ display:block; padding:0.75em 0;}
+.jilu_list dd .p1{ border-right:none; padding-left:1em;}
+.jilu_list dd .p2{ color:#FF5217;}
+/*我的团队*/
+.team_list{ padding:0 0.75em; display:block; margin-top:0.75em;border-top:1px solid #e0e0e0; border-bottom:1px solid #e0e0e0; background:#fff; }
+.team_list li{ display:block; padding:0.75em 0; border-bottom:1px solid #e0e0e0; position:relative;}
+.team_list li:last-child{ border-bottom:none;}
+.team_list .p1{ font-size:0.875em;}
+.team_list .p2{ font-size:0.875em; padding-top:0.5em; color:#666;}
+.team_list b{ font-size:0.875em; color: #FF3300; font-weight:normal; padding-left:0.5em;}
+.team_list time{ display:block; font-size:0.875em; position:absolute; right:0; top:1em; color: #999;}
+/*我的等级*/
+.dengji_top{ width:100%; background:#1583E6; display:block; overflow:hidden;}
+.dengji_top .top_img{ width:5em; height:5em; padding:0.25em; border-radius:5em; background:rgba(255,255,255,0.5);margin:2em auto 0 auto;}
+.dengji_top .top_img img{ display:block; width:4.5em; height:4.5em; border-radius:4.5em;}
+.dengji_top .top_name{ width:100%; text-align:center; padding-top:0.5em; padding-bottom:1em;}
+.dengji_top .top_name span{ display:inline-block; font-size:0.875em; color:#fff; vertical-align:middle; padding-right:0.75em;}
+.dengji_top .top_name img{ width:1em; height:1em; vertical-align:middle;}
+.dengji_top .dengji_ico{ width:100%; margin:0 auto; padding-bottom:1.5em;}
+.dengji_top .dengji_tu1,.dengji_top .dengji_tu2,.dengji_top .dengji_tu3,.dengji_top .dengji_tu4,.dengji_top .dengji_tu5{ width:90%; margin:0 auto; }
+.dengji_top .dengji_tu img,.dengji_top .dengji_tu2 img,.dengji_top .dengji_tu3 img,.dengji_top .dengji_tu4 img,.dengji_top .dengji_tu5 img{ display:block; width:100%;}
+.dengji_top .dengji_wen{ width:100%; margin:0;padding-top:0.75em;}
+.dengji_top .dengji_wen span{ display:block; float:left; font-size:0.75em; color:#fff; width:20%; text-align:center;}
+.dengji_list{ width:100%;display:block;border-top:1px solid #e0e0e0; border-bottom:1px solid #e0e0e0; background:#fff;}
+.dengji_list dt{ display:block; width:100%; padding:0.75em 0; background:#f3f3f3; border-bottom:1px solid #e0e0e0;}
+.dengji_list p{ width:28%; float:left; text-align:center; font-size:0.875em; }
+.dengji_list p:last-child{ width:44%;}
+.dengji_list dt p{ border-right:1px solid #d8d8d8;}
+.dengji_list dt p:last-child{ border-right:none;}
+.dengji_list dd{display:block; width:100%;  padding:0.75em 0; display:block;}
+.dengji_list dd p:last-child{ font-size:0.75em;}
+.dengji_list dd img{ width:60%;}
